@@ -13,17 +13,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.untoldcoding .overlay-text {
-  position: absolute;
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
-  background-color: #000000; 
-  color: #fff; 
-  padding: 10px 20px; 
-  font-size: 20px; 
-  text-align: center;
-}
+
 .untoldcoding {
   position: relative;
   margin: 20px 0;
@@ -61,7 +51,17 @@ body {
   width: 100%;
   object-fit: cover;
 }
-
+.untoldcoding .overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #000000; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center;
+}
 .untoldcoding:hover .img-container {
   transform: rotateY(-135deg);
 }
