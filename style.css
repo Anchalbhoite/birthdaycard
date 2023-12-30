@@ -42,15 +42,6 @@ body {
   z-index: 1;
   transition: 1s;
 }
-
-.untoldcoding .img-container img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
 .untoldcoding .img-container .overlay-text {
   position: absolute;
   top: 50%; 
@@ -62,6 +53,16 @@ body {
   font-size: 20px; 
   text-align: center;
 }
+
+.untoldcoding .img-container img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .untoldcoding:hover .img-container {
   transform: rotateY(-135deg);
 }
