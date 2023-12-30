@@ -13,7 +13,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.overlay-text {
+.untoldcoding .overlay-text {
   position: absolute;
   top: 50%; 
   left: 50%; 
