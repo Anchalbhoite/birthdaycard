@@ -42,6 +42,12 @@ body {
   z-index: 1;
   transition: 1s;
 }
+.overlay-text{
+  font-family: Courier;
+  font-size: 12px;
+  font-weight: bold;
+  color: #FEF9ED;
+}
 .untoldcoding .img-container .overlay-text {
   font-family: Brush Script;
   position: absolute; /* Position the background text */
