@@ -44,12 +44,11 @@ body {
 }
 
 .untoldcoding .img-container .overlay-text {
-  font-family: Brush Script;
+  font-family:Times New Roman;
   font-size: 20px;
   font-weight: bold;
-  color: #FEF9ED;
   position: absolute; /* Position the background text */
-  bottom: 5; /* At the bottom. Use top:0 to append it to the top */
+  bottom: 15; /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #FEF9ED; 
