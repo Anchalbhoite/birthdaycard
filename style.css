@@ -31,12 +31,7 @@ body {
 
   box-shadow: 5px 5px 20px rgb(235, 151, 128);
 }
-.overlay-text{
-  font-family: Courier;
-  font-size: 12px;
-  font-weight: bold;
-  color: #FEF9ED;
-}
+
 .untoldcoding .img-container {
   position: relative;
   width: 100%;
@@ -49,7 +44,10 @@ body {
 }
 
 .untoldcoding .img-container .overlay-text {
-  font-family: Brush Script;
+  font-family: Courier;
+  font-size: 12px;
+  font-weight: bold;
+  color: #FEF9ED;
   position: absolute; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0); /* Fallback color */
