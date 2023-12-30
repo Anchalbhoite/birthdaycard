@@ -43,6 +43,7 @@ body {
   transition: 1s;
 }
 .untoldcoding .img-container .overlay-text {
+  font-family: Brush Script;
   position: absolute; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0); /* Fallback color */
