@@ -48,7 +48,9 @@ body {
   font-size: 20px;
   font-weight: bold;
   position: absolute; /* Position the background text */
-  bottom: 15; /* At the bottom. Use top:0 to append it to the top */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #FEF9ED; 
