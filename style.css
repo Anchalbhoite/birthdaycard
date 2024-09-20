@@ -48,7 +48,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   position: absolute; /* Position the background text */
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: rgb(0, 0, 0); /* Fallback color */
